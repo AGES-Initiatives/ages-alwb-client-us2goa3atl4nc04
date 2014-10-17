@@ -1,4 +1,4 @@
-Template cu.snc_presanctifiedparts_20140403 
+Template cu.snc_presanctifiedparts_wed5
 
 	import ho.s10_gr_GR_cog.*
 	import ps_gr_GR_cog.*
@@ -21,7 +21,8 @@ Template cu.snc_presanctifiedparts_20140403
 	import roles.*
 
 		Head 
-			Set_Date month 4 day 3 year 2014 End_Date
+			Set_Date month 3 day 26 year 2015 End_Date
+				Template_Title @lookup sid ofWeek5 lang L2 End_Title
 				Page_Header_Even
 					left @pageNbr
 					center @lookup sid pl.pdf.header lang L2 
@@ -44,6 +45,7 @@ Template cu.snc_presanctifiedparts_20140403
 //		Para role inaudible sid psa140.v8.text End-Para
 //		Para role inaudible sid psa140.v9.text End-Para
 
+	Title role desig sid OnWednesday sid Evening sid ofWeek5 ldp @Service_Year End-Title
 	Section Presanctified02 //VespersHymns
 		Section Idiomela_Triodion
 			Title role desig sid TouTriodiou End-Title

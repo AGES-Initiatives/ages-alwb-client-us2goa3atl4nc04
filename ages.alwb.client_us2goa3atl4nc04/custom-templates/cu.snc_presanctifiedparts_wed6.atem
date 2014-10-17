@@ -1,4 +1,4 @@
-Template cu.snc_presanctifiedparts_20140410 
+Template cu.snc_presanctifiedparts_wed6
 
 	import ho.s10_gr_GR_cog.*	
 	import ps_gr_GR_cog.*
@@ -22,7 +22,8 @@ Template cu.snc_presanctifiedparts_20140410
 	import roles.*
 
 		Head 
-			Set_Date month 4 day 10 End_Date
+			Set_Date month 4 day 2 year 2015 End_Date
+				Template_Title @lookup sid ofWeek6 lang L2 End_Title
 				Page_Header_Even
 					left @pageNbr
 					center @lookup sid pl.pdf.header lang L2 
@@ -34,6 +35,7 @@ Template cu.snc_presanctifiedparts_20140410
 			Set_Page_Number 1 End_Set_Page_Number
 		End_Head
 	
+	Title role desig sid OnWednesday sid Evening sid ofWeek6 ldp @Service_Year End-Title
 	Insert_section LIHC_Mode5  End-Insert
 	Insert_section Presanctified02_MonTueWedThur End-Insert
 	Section Presanctified03 // Entrance
