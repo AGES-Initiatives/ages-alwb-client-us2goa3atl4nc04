@@ -1,4 +1,6 @@
-Template cu.snc_presanctifiedparts_20140327
+Template cu.snc_presanctifiedparts_wed1
+
+Status Final
 
 	import client_gr_GR_cog.*
 	import eu.lichrysbasil_gr_GR_cog.*
@@ -7,8 +9,7 @@ Template cu.snc_presanctifiedparts_20140327
 	import ho.s10_gr_GR_cog.*	
 //	import me.m00.d00_gr_GR_cog.*
 //	import pe.d000_gr_GR_cog.*
-	import ps_gr_GR_cog.*
-	import tr.d047_gr_GR_cog.*
+//	import tr.d000_gr_GR_cog.*
 
 //	import oc.*
 //	import pe.*
@@ -37,42 +38,21 @@ Template cu.snc_presanctifiedparts_20140327
 	
 
 		Head 
-			Set_Date month 3 day 27 End_Date
+			Set_Date month 2 day 26 year 2015 End_Date
+				Template_Title @lookup sid ofWeek1 lang L2 End_Title
 				Page_Header_Even
 					left @pageNbr
 					center @lookup sid pl.pdf.header lang L2 
 				End_Page_Header_Even
 				Page_Header_Odd
-					center @lookup sid dayWednesday sid ofWeek4 lang L2 
+					center @lookup sid dayWednesday sid ofWeek1 lang L2 
 					right @pageNbr
 				End_Page_Header_Odd
 			Set_Page_Number 1 End_Set_Page_Number
 		End_Head
 	
-	
-	Insert_section LIHC_Mode4  End-Insert
-	Section Idiomela_Triodion
-		Title role desig sid TouTriodiou End-Title
-		Title role mixed <Tdesig> sid StichironIdiomelon</> <Tmode>sid trVE.AposIdiomelon1.mode</> End-Title
-		Media sid trVE.AposIdiomelon1.text End-Media
-		Insert_section LIHC_Verse.v01 End-Insert
-		Hymn sid trVE.AposIdiomelon1.text media-off End-Hymn
-		Media sid trVE.AposIdiomelon2.text End-Media
-		Insert_section LIHC_Verse.v02 End-Insert
-		Hymn sid trVE.AposIdiomelon2.text  media-off End-Hymn
-		Title role desig sid Martyrikon End-Title
-		Title role melody rid trVE.AposMartyric.melody End-Title
-		Media sid trVE.AposMartyric.text End-Media
-		Insert_section LIHC_Verse.v03 End-Insert
-		Hymn sid trVE.AposMartyric.text  media-off End-Hymn
-	End-Section
-	Insert_section Presanctified02_MonTueWedThur.Stichera_Triodion End-Insert
-	Insert_section Presanctified02_MonTueWedThur.Stichera_Menaion End-Insert
-	Section GloryBoth
-		Title role mixed sid DoxaKaiNyn <Tdesig>sid TouStavrou</>End-Title
-		Media sid trVE.SticGlory.text End-Media
-		Hymn sid trVE.SticGlory.text End-Hymn
-	End-Section
+	Title role desig sid OnWednesday sid Evening sid ofWeek1 ldp @Service_Year End-Title
+	Insert_section Presanctified02_MonTueWedThur End-Insert
 	Section Presanctified03 // Entrance
 //		Actor sid Deacon End-Actor
 //		Rubric sid InALowVoice End-Rubric

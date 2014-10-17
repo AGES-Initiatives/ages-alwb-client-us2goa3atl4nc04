@@ -1,6 +1,4 @@
-Template cu.snc_presanctifiedparts_20140306
-
-Status Final
+Template cu.snc_presanctifiedparts_wed3
 
 	import client_gr_GR_cog.*
 	import eu.lichrysbasil_gr_GR_cog.*
@@ -38,19 +36,21 @@ Status Final
 	
 
 		Head 
-			Set_Date month 3 day 6 End_Date
+			Set_Date month 3 day 12 year 2015 End_Date
+				Template_Title @lookup sid ofWeek3 lang L2 End_Title
 				Page_Header_Even
 					left @pageNbr
 					center @lookup sid pl.pdf.header lang L2 
 				End_Page_Header_Even
 				Page_Header_Odd
-					center @lookup sid dayWednesday sid ofWeek1 lang L2 
+					center @lookup sid dayWednesday sid ofWeek3 lang L2 
 					right @pageNbr
 				End_Page_Header_Odd
 			Set_Page_Number 1 End_Set_Page_Number
 		End_Head
 	
 	
+	Title role desig sid OnWednesday sid Evening sid ofWeek3 ldp @Service_Year End-Title
 	Insert_section Presanctified02_MonTueWedThur End-Insert
 	Section Presanctified03 // Entrance
 //		Actor sid Deacon End-Actor
