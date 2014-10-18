@@ -5,8 +5,6 @@
 	<projects>
 		<project>net.ages.liturgical.workbench.library_en_US_constantinides</project>
 		<project>net.ages.liturgical.workbench.library_en_US_dedes</project>
-		<project>net.ages.liturgical.workbench.library_en_US_holycross</project>
-		<project>net.ages.liturgical.workbench.library_en_US_oca</project>
 		<project>net.ages.liturgical.workbench.library_gr_GR_cog</project>
 		<project>net.ages.liturgical.workbench.library.client_enpublic</project>
 		<project>net.ages.liturgical.workbench.scripture</project>
