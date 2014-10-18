@@ -1,7 +1,7 @@
 A_Resource_Whose_Name = pref.generation_us2goa3atl4nc04
 
 // --- Convenient Settings for HTML--- these values go to pref.website
-	website.root = "snc/dcs_dec2014"    //must be lowercase
+	website.root = "dcs_2015"    //must be lowercase
 	media.copy = "no"  
 	
 // !!! CHECK MEDIA PATH  !!!
