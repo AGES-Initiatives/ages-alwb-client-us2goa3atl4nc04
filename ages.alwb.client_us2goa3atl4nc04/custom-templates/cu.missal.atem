@@ -57,7 +57,7 @@ Status Final
 	Title role desig rid meDate.text End-Title
 	Title rid meCommemoration.text End-Title
 	Title rid meShortCommemoration1.text End-Title
-	Insert_section se.m11.d30.li.Instance02.block3 End-Insert
+//	Insert_section se.m11.d30.li.Instance02.block3 End-Insert
 
 
 End-Template
