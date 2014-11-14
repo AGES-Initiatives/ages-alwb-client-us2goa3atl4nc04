@@ -54,7 +54,7 @@ Status Final
 				Insert_section Vespers_01 End-Insert
 				Insert_section Vespers_02_Sunday.LIHC_Stichera_1234 End-Insert
 				Insert_section Instance01.block1 End-Insert
-				Insert_section Vespers_BothNowFirstTheotokion.Mode6 End-Insert	
+				Insert_section Vespers_BothNow_SticTheotokion.Mode6 End-Insert	
 				Insert_section Vespers_03_entrance End-Insert	
 				Insert_section Instance01.block2 End-Insert
 				Insert_section Vespers_05_Litanies End-Insert
@@ -103,7 +103,7 @@ Status Final
 					Title role mixed sid Doxa <Tmode> sid meVE.SticGlory.mode </>End-Title
 					Hymn sid meVE.SticGlory.text End-Hymn
 				End-Section
-				Insert_section Vespers_BothNowFirstTheotokion.Mode6 End-Insert	
+				Insert_section Vespers_BothNow_SticTheotokion.Mode6 End-Insert	
 				Insert_section Vespers_03_entrance End-Insert	
 				Section block2
 					Title role desig sid TaAnagnosmata End-Title
