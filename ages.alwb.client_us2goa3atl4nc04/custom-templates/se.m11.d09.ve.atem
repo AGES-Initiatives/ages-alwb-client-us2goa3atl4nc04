@@ -66,7 +66,7 @@ Status Final
 					Title role mixed <Tmode>sid meVE.Apolytikion1.mode</> <Tmelody>sid meVE.Apolytikion1.melody</> End-Title
 					Hymn sid meVE.Apolytikion1.text End-Hymn
 				End-Section
-				Insert_section Vespers_09_Apolytikion.resurrectional.theotokion.both.mode1 End-Insert
+				Insert_section Vespers_09_Apolytikion.both.theotokion.mode1.primary End-Insert
 				Insert_section Vespers_10.afterartoklasia End-Insert
 				Insert_section Vespers_11_Dismissal.commemoration End-Insert
 			End-Section
@@ -99,7 +99,7 @@ Status Final
 					Hymn sid meVE.Stichera06.text media-off End-Hymn
 					Title role mixed sid Doxa <Tmode> sid meVE.SticGlory.mode </>End-Title
 					Hymn sid meVE.SticGlory.text End-Hymn
-					Insert_section Vespers_03_Stichera.octoechos.firsttheotokion.both.mode6 End-Insert	
+					Insert_section Vespers_03_Stichera.both.firsttheotokion.mode6 End-Insert	
 				End-Section
 				Insert_section Vespers_04.entrance End-Insert	
 				Insert_section Vespers_05_Readings End-Insert	
@@ -127,14 +127,14 @@ Status Final
 				Section block4
 					Title role mixed sid Doxa<Tmode>sid meVE.AposGlory.mode</>End-Title
 					Hymn sid meVE.AposGlory.text End-Hymn
-					Insert_section Vespers_08_Aposticha.octoechos.theotokion.mode8 End-Insert
+					Insert_section Vespers_08_Aposticha.both.theotokion.primary.mode8 End-Insert
 				End-Section
-				Insert_section Vespers_09_Apolytikion.not_resurrectional End-Insert	
+				Insert_section Vespers_09_Apolytikion.symeon_trisagion End-Insert	
 				Section block5
 					Title role desig sid Apolytikion End-Title
 					Title role mixed <Tmode>sid meVE.Apolytikion1.mode</><Tmelody>sid meVE.Apolytikion1.melody</>End-Title
 					Hymn sid meVE.Apolytikion1.text End-Hymn
-				Insert_section Vespers_09_Apolytikion.resurrectional.theotokion.both.mode1 End-Insert
+				Insert_section Vespers_09_Apolytikion.both.theotokion.mode1.primary End-Insert
 				End-Section
 				Insert_section Vespers_10.afterartoklasia End-Insert
 				Insert_section Vespers_11_Dismissal.commemoration End-Insert
