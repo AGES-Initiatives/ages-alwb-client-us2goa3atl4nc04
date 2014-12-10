@@ -7,7 +7,6 @@ Template cu.snc_presanctifiedparts_wed6
 	//Templates
 	import eu.li.presanctified.*
 	import LentParts.*
-	import VespersParts.*
 	
 	import actors_gr_GR_cog.*
 	import template.titles_gr_GR_cog.*
@@ -36,8 +35,8 @@ Template cu.snc_presanctifiedparts_wed6
 		End_Head
 	
 	Title role desig sid OnWednesday sid Evening sid ofWeek6 ldp @Service_Year End-Title
-	Insert_section LIHC_Mode5  End-Insert
-	Insert_section Presanctified02_MonTueWedThur End-Insert
+	Insert_section VE.LIHC_Mode5  End-Insert
+	Insert_section VE._03_Stichera.tr.pl End-Insert
 	Section Presanctified03 // Entrance
 //		Actor sid Deacon End-Actor
 //		Rubric sid InALowVoice End-Rubric

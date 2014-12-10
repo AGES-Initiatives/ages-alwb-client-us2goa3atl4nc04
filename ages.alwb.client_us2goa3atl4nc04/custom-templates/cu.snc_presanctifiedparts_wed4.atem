@@ -15,7 +15,6 @@ Template cu.snc_presanctifiedparts_wed4
 //	import tr.*
 
 	//Templates
-	import VespersParts.*
 	import MatinsParts.*
 	import kTheotokos.*  //Katavasia
 	import eu.li.chrysbasil.*
@@ -51,24 +50,24 @@ Template cu.snc_presanctifiedparts_wed4
 		End_Head
 	
 	Title role desig sid OnWednesday sid Evening sid ofWeek4 ldp @Service_Year End-Title
-	Insert_section LIHC_Mode4  End-Insert
+	Insert_section VE.LIHC_Mode4  End-Insert
 	Section Idiomela_Triodion
 		Title role desig sid TouTriodiou End-Title
 		Title role mixed <Tdesig> sid StichironIdiomelon</> <Tmode>sid trVE.AposIdiomelon1.mode</> End-Title
 		Media sid trVE.AposIdiomelon1.text End-Media
-		Insert_section LIHC_Verse.v01 End-Insert
+		Insert_section VE.LIHC_Verse.v01 End-Insert
 		Hymn sid trVE.AposIdiomelon1.text media-off End-Hymn
 		Media sid trVE.AposIdiomelon2.text End-Media
-		Insert_section LIHC_Verse.v02 End-Insert
+		Insert_section VE.LIHC_Verse.v02 End-Insert
 		Hymn sid trVE.AposIdiomelon2.text  media-off End-Hymn
 		Title role desig sid Martyrikon End-Title
 		Title role melody rid trVE.AposMartyric.melody End-Title
 		Media sid trVE.AposMartyric.text End-Media
-		Insert_section LIHC_Verse.v03 End-Insert
+		Insert_section VE.LIHC_Verse.v03 End-Insert
 		Hymn sid trVE.AposMartyric.text  media-off End-Hymn
 	End-Section
-	Insert_section Presanctified02_MonTueWedThur.Stichera_Triodion End-Insert
-	Insert_section Presanctified02_MonTueWedThur.Stichera_Menaion End-Insert
+	Insert_section VE._03_Stichera.tr.pl End-Insert
+	Insert_section VE._03_Stichera.tr.pl End-Insert
 	Section GloryBoth
 		Title role mixed sid DoxaKaiNyn <Tdesig>sid TouStavrou</>End-Title
 		Media sid trVE.SticGlory.text End-Media
