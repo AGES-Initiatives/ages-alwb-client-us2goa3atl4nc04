@@ -14,7 +14,6 @@ Template cu.snc_presanctifiedparts_wed3
 //	import tr.*
 
 	//Templates
-	import VespersParts.*
 	import MatinsParts.*
 	import kTheotokos.*  //Katavasia
 	import eu.li.chrysbasil.*
@@ -51,7 +50,7 @@ Template cu.snc_presanctifiedparts_wed3
 	
 	
 	Title role desig sid OnWednesday sid Evening sid ofWeek3 ldp @Service_Year End-Title
-	Insert_section Presanctified02_MonTueWedThur End-Insert
+	Insert_section VE._03_Stichera.tr.pl End-Insert
 	Section Presanctified03 // Entrance
 //		Actor sid Deacon End-Actor
 //		Rubric sid InALowVoice End-Rubric
