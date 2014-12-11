@@ -53,7 +53,7 @@ Template cu.presanctified
 		Insert_template ematins.credits End-Insert
 	End-Preface
 	
-	Insert_section Presanctified01 End-Insert
+	Insert_section VE._01_Beginning.presanctified End-Insert
 	Title <r>sid client_en_US_us2goa3atl4nc04.cl.eu.presanctified.R001</> End-Title
 	Break line End_Break
 	Break line End_Break
@@ -66,7 +66,6 @@ Template cu.presanctified
 	Insert_section Presanctified05 End-Insert
 	Insert_section Presanctified06 End-Insert
 	Insert_section Presanctified07 End-Insert
-	Insert_section Presanctified08 End-Insert
 	Insert_section Presanctified09 End-Insert
 	Insert_section Presanctified10 End-Insert
 	Insert_section Presanctified11 End-Insert
