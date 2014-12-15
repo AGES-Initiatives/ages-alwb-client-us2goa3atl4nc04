@@ -66,8 +66,8 @@ Template cu.snc_presanctifiedparts_wed4
 		Insert_section VE.LIHC_Verse.v03 End-Insert
 		Hymn sid trVE.AposMartyric.text  media-off End-Hymn
 	End-Section
-	Insert_section VE._03_Stichera.tr.pl End-Insert
-	Insert_section VE._03_Stichera.tr.pl End-Insert
+	Insert_section VE._03_Stichera__.tr__.pl_ End-Insert
+	Insert_section VE._03_Stichera__.tr__.pl_ End-Insert
 	Section GloryBoth
 		Title role mixed sid DoxaKaiNyn <Tdesig>sid TouStavrou</>End-Title
 		Media sid trVE.SticGlory.text End-Media
