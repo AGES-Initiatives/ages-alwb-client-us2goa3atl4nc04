@@ -15,7 +15,6 @@ Template cu.snc_presanctifiedparts_wed4
 //	import tr.*
 
 	//Templates
-	import MatinsParts.*
 	import kTheotokos.*  //Katavasia
 	import eu.li.chrysbasil.*
 	import LentParts.*
