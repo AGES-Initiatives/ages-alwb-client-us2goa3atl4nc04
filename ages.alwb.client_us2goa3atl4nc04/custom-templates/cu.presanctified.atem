@@ -16,7 +16,6 @@ Template cu.presanctified
 	//Templates
 	import kTheotokos.*  //Katavasia
 	import eu.li.chrysbasil.*
-	import LentParts.*
 	import Litanies.*
 	import PresanctifiedParts.*
 	
