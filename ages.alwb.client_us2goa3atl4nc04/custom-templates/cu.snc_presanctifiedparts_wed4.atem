@@ -17,7 +17,6 @@ Template cu.snc_presanctifiedparts_wed4
 	//Templates
 	import kTheotokos.*  //Katavasia
 	import eu.li.chrysbasil.*
-	import LentParts.*
 	import Litanies.*
 	
 	import actors_gr_GR_cog.*
