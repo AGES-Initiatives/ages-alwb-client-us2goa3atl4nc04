@@ -16,7 +16,6 @@ Template cu.snc_presanctifiedcover
 	//Templates
 	import kTheotokos.*  //Katavasia
 	import eu.li.chrysbasil.*
-	import Litanies.*
 	
 	import actors_gr_GR_cog.*
 	import template.titles_gr_GR_cog.*
