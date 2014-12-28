@@ -60,7 +60,7 @@ Template cu.snc_presanctifiedparts_wed3
 		Actor sid Reader End-Actor
 		Reading sid hoVE.FosIlaron.text End-Reading
 	End-Section
-	Insert_section Lectionary_Triodion.Vespers_Readings End-Insert
+	Insert_section VE._05_Readings End-Insert
 	Break line End_Break
 	Title <r>sid client_en_US_us2goa3atl4nc04.cl.eu.presanctified.R002</> End-Title
 End-Template

@@ -10,7 +10,6 @@ Status Final
 	import oc.*
 
 	//Templates
-	import LectionaryReadings.*
 	
 	import actors_gr_GR_cog.*
 	import dismissals_gr_GR_cog.*
@@ -108,7 +107,7 @@ Status Final
 					Actor sid Choir End-Actor
 					Title role mode sid meVE.LityGlory.mode End-Title
 					Hymn sid meVE.LityGlory.text End-Hymn	 
-					Insert_section LITANY.Ektenia03 End-Insert
+					Insert_section LN.Ektenia03 End-Insert
 					Insert_section VE._07_LityAndArtoclasia_.part2 End-Insert
 					Insert_section VE._07_LityAndArtoclasia_.part3 End-Insert
 				End-Section
