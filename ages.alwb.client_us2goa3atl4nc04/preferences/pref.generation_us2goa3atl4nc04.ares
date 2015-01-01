@@ -26,7 +26,7 @@ A_Resource_Whose_Name = pref.generation_us2goa3atl4nc04
 	cover.version = ematinscovers_en_US_ematins.GE.text //this value (GE or E) goes to eMatins Covers
 
 // --- Convenient Settings for PDF-- these values go topref.pdf
-	pss.stylesheet = "ematins" 
+	pss.stylesheet = "snc" 
 	page.columns.quantity = "2" //2 for English, 1 for GE. 
 	page.columns.gap = ".1in" //.1in for English, 0 for GE. 
 	
