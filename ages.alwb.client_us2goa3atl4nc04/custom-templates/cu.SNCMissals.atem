@@ -1,0 +1,48 @@
+Template cu.SNCMissals 
+
+	import client_gr_GR_cog.*
+	import ho.s07_gr_GR_cog.*
+//	import me.m00.d00_gr_GR_cog.*
+//	import pe.d000_gr_GR_cog.*
+//	import tr.d000_gr_GR_cog.*
+
+	import da.*
+//	import oc.*
+//	import pe.*
+//	import tr.*
+
+	//Templates
+//	import bk.ho.s15_m00.*
+	import LectionaryReadings.*
+	
+	import actors_gr_GR_cog.*
+	import dismissals_gr_GR_cog.*
+	import misc_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import template.titles_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+		
+	import iTags.*
+	import bTags.*
+	import roles.*
+
+Head
+	Set_Date month 1 day 11 End_Date
+End_Head	
+	
+	Hymn sid hoLI.Antiphon1.text media-off End-Hymn
+	Insert_section Selector_SundayLiturgyAntiphon2.Section01 End-Insert
+	Insert_section Selector_SundayLiturgyAntiphon3._02_hymn_no_title End-Insert
+	Insert_section Selector_Eisodikon.eisodikon_complete End-Insert
+	Insert_section se.m01.d11.li.Instance02.hymns End-Insert
+
+
+	Insert_section LI._05_AfterEntranceHymns__.sunday_.hymn End-Insert
+	Insert_section LI._05_AfterEntranceHymns__.festal__.once End-Insert
+//	Insert_section LI._05_AfterEntranceHymns__.tr1_.hymn End-Insert
+	Insert_section LI._05_AfterEntranceHymns__.me1_.hymn End-Insert
+	Insert_section LI._05_AfterEntranceHymns__.local End-Insert
+	Insert_section LI._05_AfterEntranceHymns__.kontakion End-Insert
+
+End-Template
