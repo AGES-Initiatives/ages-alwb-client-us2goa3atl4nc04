@@ -1,8 +1,9 @@
-Template Selector_Sunday_Liturgy_Hymns 
+Template Selector_Sunday_Liturgy_Parts
 
 Status Draft
 
 	import client_gr_GR_cog.*
+	import ho.s07_gr_GR_cog.*
 
 	import da.*
 	
@@ -22,7 +23,7 @@ Status Draft
  		Set_Date month 1 day 4 year 2015 End_Date
  	End_Head
 
-	Section Section01
+	Section hymns
 		when-date-is
 			Jan 4 use: Insert_section se.m01.d04.li.Instance02.hymns End-Insert
 			Jan 11 use: Insert_section se.m01.d11.li.Instance02.hymns End-Insert
@@ -39,5 +40,35 @@ Status Draft
 			Mar 30 use: Insert_section se.tr.d057.li.Instance01.hymns End-Insert
 			Apr 5 use: Insert_section se.tr.d064.li.Instance01.hymns End-Insert
 		end-when
-	End-Section 
+	End-Section
+	
+	Section trisagion
+		when-date-is
+			Jan 6, 7 use:
+				Hymn sid hoLI.OsoiEisChriston.text media-off End-Hymn	
+			Aug 1 use:
+				Hymn sid hoLI.TonStavronSou.text End-Hymn	
+			Sep 14 use:
+				Hymn sid hoLI.TonStavronSou.text End-Hymn	
+			Dec 25, 26 use:
+				Hymn sid hoLI.OsoiEisChriston.text End-Hymn	
+			otherwise use:
+				when-movable-cycle-day-is
+					43 use:
+						Hymn sid hoLI.TonStavronSou.text End-Hymn	
+					63, 71, 72, 73, 74, 75, 76, 77, 109, 120, 121 use:
+						Hymn sid hoLI.OsoiEisChriston.text End-Hymn	
+					otherwise use:
+						Hymn sid hoLI.TrisagiosHymn.text End-Hymn	
+				end-when
+		end-when
+	End-Section	
+	
+	
+	
+	
+	
+	
+	
+	
 End-Template
