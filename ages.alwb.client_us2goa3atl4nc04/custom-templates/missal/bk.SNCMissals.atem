@@ -5,6 +5,8 @@ Template bk.SNCMissals
 	import missal_gr_GR_cog.*
 
 	import da.*
+	import me.*
+	import tr.*
 
 	import actors_gr_GR_cog.*
 	import dismissals_gr_GR_cog.*
@@ -22,6 +24,9 @@ Template bk.SNCMissals
 		Set_Date month 1 day 11 year 2015 End_Date
 	End_Head	
 
+		Para role missaltitle ldp @Service_Date End-Para
+		Para role missaltitle rid meCommemoration.text End-Para
+		Break line End_Break
 		Para role missaltitle sid Antiphon1.title<Tnumright>sid Antiphon1.pagenumber</>End-Para
 		Hymn sid hoLI.Antiphon1.text media-off End-Hymn
 		Para role missaltitle sid Antiphon2.title<Tnumright>sid Antiphon2.pagenumber</>End-Para
@@ -30,29 +35,9 @@ Template bk.SNCMissals
 		Insert_section Selector_SundayLiturgyAntiphon3._02_hymn_no_title End-Insert
 		Para role missaltitle sid SmallEntrance.title<Tnumright>sid SmallEntrance.pagenumber</>End-Para
 		Insert_section Selector_Eisodikon.eisodikon_complete End-Insert
-		Insert_section Selector_Sunday_Liturgy_Hymns.Section01 End-Insert
+		Insert_section Selector_Sunday_Liturgy_Parts.hymns End-Insert
 		Para role missaltitle sid Trisagion.title<Tnumright>sid Trisagion.pagenumber</>End-Para
-		Section trisagion
-			when-date-is
-				Jan 6, 7 use:
-					Hymn sid hoLI.OsoiEisChriston.text media-off End-Hymn	
-				Aug 1 use:
-					Hymn sid hoLI.TonStavronSou.text End-Hymn	
-				Sep 14 use:
-					Hymn sid hoLI.TonStavronSou.text End-Hymn	
-				Dec 25, 26 use:
-					Hymn sid hoLI.OsoiEisChriston.text End-Hymn	
-				otherwise use:
-					when-movable-cycle-day-is
-						43 use:
-							Hymn sid hoLI.TonStavronSou.text End-Hymn	
-						63, 71, 72, 73, 74, 75, 76, 77, 109, 120, 121 use:
-							Hymn sid hoLI.OsoiEisChriston.text End-Hymn	
-						otherwise use:
-							Hymn sid hoLI.TrisagiosHymn.text End-Hymn	
-					end-when
-			end-when
-		End-Section	
+		Insert_section Selector_Sunday_Liturgy_Parts.trisagion End-Insert
 		Para role missaltitle sid Readings.title<Tnumright>sid Readings.pagenumber</>End-Para
 		Insert_section Liturgy_Epistle.Epistle_Info End-Insert
 	//	Insert_section LectionaryEpistleText.Epistle_Text End-Insert
