@@ -28,7 +28,7 @@ Template bk.SNCMissals
 		Para role missaltitle rid meCommemoration.text End-Para
 		Break line End_Break
 		Para role missaltitle sid Antiphon1.title<Tnumright>sid Antiphon1.pagenumber</>End-Para
-		Hymn sid hoLI.Antiphon1.text media-off End-Hymn
+		Hymn sid hoLI.Antiphon1.text @ver media-off End-Hymn
 		Para role missaltitle sid Antiphon2.title<Tnumright>sid Antiphon2.pagenumber</>End-Para
 		Insert_section Selector_SundayLiturgyAntiphon2.Section01 End-Insert
 		Para role missaltitle sid Antiphon3.title<Tnumright>sid Antiphon3.pagenumber</>End-Para

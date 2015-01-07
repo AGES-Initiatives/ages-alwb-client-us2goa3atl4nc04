@@ -45,21 +45,21 @@ Status Draft
 	Section trisagion
 		when-date-is
 			Jan 6, 7 use:
-				Hymn sid hoLI.OsoiEisChriston.text media-off End-Hymn	
+				Hymn sid hoLI.OsoiEisChriston.text @ver media-off End-Hymn	
 			Aug 1 use:
-				Hymn sid hoLI.TonStavronSou.text End-Hymn	
+				Hymn sid hoLI.TonStavronSou.text @ver End-Hymn	
 			Sep 14 use:
-				Hymn sid hoLI.TonStavronSou.text End-Hymn	
+				Hymn sid hoLI.TonStavronSou.text @ver End-Hymn	
 			Dec 25, 26 use:
-				Hymn sid hoLI.OsoiEisChriston.text End-Hymn	
+				Hymn sid hoLI.OsoiEisChriston.text @ver End-Hymn	
 			otherwise use:
 				when-movable-cycle-day-is
 					43 use:
-						Hymn sid hoLI.TonStavronSou.text End-Hymn	
+						Hymn sid hoLI.TonStavronSou.text @ver End-Hymn	
 					63, 71, 72, 73, 74, 75, 76, 77, 109, 120, 121 use:
-						Hymn sid hoLI.OsoiEisChriston.text End-Hymn	
+						Hymn sid hoLI.OsoiEisChriston.text @ver End-Hymn	
 					otherwise use:
-						Hymn sid hoLI.TrisagiosHymn.text End-Hymn	
+						Hymn sid hoLI.TrisagiosHymn.text @ver End-Hymn	
 				end-when
 		end-when
 	End-Section	

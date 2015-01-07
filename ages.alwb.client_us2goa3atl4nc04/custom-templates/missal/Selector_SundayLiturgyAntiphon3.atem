@@ -29,7 +29,7 @@ Status Final
 							Feb 2 thru 9 use:
 								Section feb02_antiphon3_hymn
 									Title role mixed<Tdesig>sid Apolytikion sid TisEortis</><Tmode>sid me.m02.d02_gr_GR_cog.meVE.Apolytikion1.mode</>End-Title
-									Hymn sid me.m02.d02_gr_GR_cog.meVE.Apolytikion1.text End-Hymn
+									Hymn sid me.m02.d02_gr_GR_cog.meVE.Apolytikion1.text @ver End-Hymn
 								End-Section
 						end-when
 					14 use:
@@ -77,7 +77,7 @@ Status Final
 			Mar 25 use:
 				Section mar25_antiphon3_hymn
 					Title role mixed<Tdesig>sid Apolytikion sid TisEortis</><Tmode>sid me.m03.d25_gr_GR_cog.meVE.Apolytikion1.mode</>End-Title
-					Hymn sid me.m03.d25_gr_GR_cog.meVE.Apolytikion1.text End-Hymn
+					Hymn sid me.m03.d25_gr_GR_cog.meVE.Apolytikion1.text @ver End-Hymn
 				End-Section
 				
 				otherwise use:
@@ -85,32 +85,32 @@ Status Final
 						29 use:
 							Section lent1_antiphon3_hymn
 								Title role mode sid tr.d029_gr_GR_cog.trVE.Apolytikion1.mode End-Title
-								Hymn sid tr.d029_gr_GR_cog.trVE.Apolytikion1.text End-Hymn
+								Hymn sid tr.d029_gr_GR_cog.trVE.Apolytikion1.text @ver End-Hymn
 							End-Section
 						43 use:
 							Section lent3_antiphon3_hymn
 								Title role mode sid tr.d043_gr_GR_cog.trVE.Apolytikion1.mode End-Title
-								Hymn sid tr.d043_gr_GR_cog.trVE.Apolytikion1.text End-Hymn
+								Hymn sid tr.d043_gr_GR_cog.trVE.Apolytikion1.text @ver End-Hymn
 							End-Section
 						64 use:
 							Section palm_antiphon3_hymn
 								Title role mode sid tr.d064_gr_GR_cog.trVE.Apolytikion1.mode End-Title
-								Hymn sid tr.d064_gr_GR_cog.trVE.Apolytikion1.text media-off End-Hymn
+								Hymn sid tr.d064_gr_GR_cog.trVE.Apolytikion1.text @ver media-off End-Hymn
 							End-Section
 						71 thru 109 use:
 							Section pascha_antiphon3_hymn
 								Title role mode sid pe.d00P_gr_GR_cog.pePA.ChristIsRisen.mode End-Title
-								Hymn sid pe.d00P_gr_GR_cog.pePA.ChristIsRisen.text media-off End-Hymn
+								Hymn sid pe.d00P_gr_GR_cog.pePA.ChristIsRisen.text @ver media-off End-Hymn
 							End-Section
 						110 thru 118 use:
 							Section ascension_antiphon3_hymn
 								Title role mode sid pe.d110_gr_GR_cog.peVE.Apolytikion1.mode End-Title
-								Hymn sid pe.d110_gr_GR_cog.peVE.Apolytikion1.text media-off End-Hymn
+								Hymn sid pe.d110_gr_GR_cog.peVE.Apolytikion1.text @ver media-off End-Hymn
 							End-Section
 						120 thru 126 use:
 							Section pentecost_antiphon3_hymn
 								Title role mode sid pe.d120_gr_GR_cog.peVE.Apolytikion1.mode End-Title
-								Hymn sid pe.d120_gr_GR_cog.peVE.Apolytikion1.text media-off End-Hymn
+								Hymn sid pe.d120_gr_GR_cog.peVE.Apolytikion1.text @ver media-off End-Hymn
 							End-Section
 						
 						otherwise use:
@@ -118,42 +118,42 @@ Status Final
 								Jan 1 use:
 									Section jan01_antiphon3_hymn
 										Title role mixed<Tmode>sid me.m01.d01_gr_GR_cog.meVE.Apolytikion2.mode</><Tmelody>sid me.m01.d01_gr_GR_cog.meVE.Apolytikion2.melody</>End-Title
-										Hymn sid me.m01.d01_gr_GR_cog.meVE.Apolytikion2.text media-off End-Hymn
+										Hymn sid me.m01.d01_gr_GR_cog.meVE.Apolytikion2.text @ver media-off End-Hymn
 									End-Section
 								Jan 6 thru 14 use:
 									Section jan06_antiphon3_hymn
 										Title role mixed<Tdesig>sid Apolytikion sid TisEortis</><Tmode>sid me.m01.d06_gr_GR_cog.meVE.Apolytikion1.mode</>End-Title
-										Hymn sid me.m01.d06_gr_GR_cog.meVE.Apolytikion1.text End-Hymn
+										Hymn sid me.m01.d06_gr_GR_cog.meVE.Apolytikion1.text @ver End-Hymn
 									End-Section
 								Aug 6 thru 12 use:
 									Section aug06_antiphon3_hymn
 										Title role mixed<Tdesig>sid Apolytikion</><Tmode>sid me.m08.d06_gr_GR_cog.meVE.Apolytikion1.mode</>End-Title
-										Hymn sid me.m08.d06_gr_GR_cog.meVE.Apolytikion1.text End-Hymn
+										Hymn sid me.m08.d06_gr_GR_cog.meVE.Apolytikion1.text @ver End-Hymn
 									End-Section
 								Aug 15 thru 23 use:
 									Section aug15_antiphon3_hymn
 										Title role mixed<Tdesig>sid Apolytikion</><Tmode>sid me.m08.d15_gr_GR_cog.meVE.Apolytikion1.mode</>End-Title
-										Hymn sid me.m08.d15_gr_GR_cog.meVE.Apolytikion1.text End-Hymn
+										Hymn sid me.m08.d15_gr_GR_cog.meVE.Apolytikion1.text @ver End-Hymn
 									End-Section
 								Sep 8 thru 12 use:
 									Section sep08_antiphon3_hymn
 										Title role mixed<Tdesig>sid Apolytikion sid TisEortis</><Tmode>sid me.m09.d08_gr_GR_cog.meVE.Apolytikion1.mode</>End-Title
-										Hymn sid me.m09.d08_gr_GR_cog.meVE.Apolytikion1.text End-Hymn
+										Hymn sid me.m09.d08_gr_GR_cog.meVE.Apolytikion1.text @ver End-Hymn
 									End-Section
 								Sep 14 thru 21 use:
 									Section sep14_antiphon3_hymn
 										Title role mixed<Tdesig>sid Apolytikion sid TouStavrou</><Tmode>sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.mode</>End-Title
-										Hymn sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.text End-Hymn
+										Hymn sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.text @ver End-Hymn
 									End-Section
 								Nov 21 thru 25 use:
 									Section nov21_antiphon3_hymn
 										Title role mixed<Tdesig>sid Apolytikion sid TouStavrou</><Tmode>sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.mode</>End-Title
-										Hymn sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.text End-Hymn
+										Hymn sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.text @ver End-Hymn
 									End-Section
 								Dec 25 thru 31 use:
 									Section dec25_antiphon3_hymn
 										Title role mixed<Tdesig>sid Apolytikion sid TisEortis</><Tmode>sid me.m12.d25_gr_GR_cog.meVE.Apolytikion1.mode</>End-Title
-										Hymn sid me.m12.d25_gr_GR_cog.meVE.Apolytikion1.text End-Hymn
+										Hymn sid me.m12.d25_gr_GR_cog.meVE.Apolytikion1.text @ver End-Hymn
 									End-Section
 								
 								otherwise use:
@@ -162,7 +162,7 @@ Status Final
 											Section sunday_antiphon3_hymn
 												Title role desig sid ApolytikionAnastasimon End-Title
 												Title role mixed<Tmode>rid ocVE.Apolytikion.mode</><Tmelody>rid ocVE.Apolytikion.melody</>End-Title
-												Hymn rid ocVE.Apolytikion.text End-Hymn
+												Hymn rid ocVE.Apolytikion.text @ver End-Hymn
 											End-Section
 									end-when
 							end-when
@@ -179,7 +179,7 @@ Status Final
 							Feb 2 thru 9 use:
 								Section feb02_antiphon3_hymn
 								//	Title role mixed<Tdesig>sid Apolytikion sid TisEortis</><Tmode>sid me.m02.d02_gr_GR_cog.meVE.Apolytikion1.mode</>End-Title
-									Hymn sid me.m02.d02_gr_GR_cog.meVE.Apolytikion1.text End-Hymn
+									Hymn sid me.m02.d02_gr_GR_cog.meVE.Apolytikion1.text @ver End-Hymn
 								End-Section
 						end-when
 					14 use:
@@ -227,7 +227,7 @@ Status Final
 			Mar 25 use:
 				Section mar25_antiphon3_hymn
 				//	Title role mixed<Tdesig>sid Apolytikion sid TisEortis</><Tmode>sid me.m03.d25_gr_GR_cog.meVE.Apolytikion1.mode</>End-Title
-					Hymn sid me.m03.d25_gr_GR_cog.meVE.Apolytikion1.text End-Hymn
+					Hymn sid me.m03.d25_gr_GR_cog.meVE.Apolytikion1.text @ver End-Hymn
 				End-Section
 				
 				otherwise use:
@@ -235,32 +235,32 @@ Status Final
 						29 use:
 							Section lent1_antiphon3_hymn
 							//	Title role mode sid tr.d029_gr_GR_cog.trVE.Apolytikion1.mode End-Title
-								Hymn sid tr.d029_gr_GR_cog.trVE.Apolytikion1.text End-Hymn
+								Hymn sid tr.d029_gr_GR_cog.trVE.Apolytikion1.text @ver End-Hymn
 							End-Section
 						43 use:
 							Section lent3_antiphon3_hymn
 							//	Title role mode sid tr.d043_gr_GR_cog.trVE.Apolytikion1.mode End-Title
-								Hymn sid tr.d043_gr_GR_cog.trVE.Apolytikion1.text End-Hymn
+								Hymn sid tr.d043_gr_GR_cog.trVE.Apolytikion1.text @ver End-Hymn
 							End-Section
 						64 use:
 							Section palm_antiphon3_hymn
 							//	Title role mode sid tr.d064_gr_GR_cog.trVE.Apolytikion1.mode End-Title
-								Hymn sid tr.d064_gr_GR_cog.trVE.Apolytikion1.text media-off End-Hymn
+								Hymn sid tr.d064_gr_GR_cog.trVE.Apolytikion1.text @ver media-off End-Hymn
 							End-Section
 						71 thru 109 use:
 							Section pascha_antiphon3_hymn
 							//	Title role mode sid pe.d00P_gr_GR_cog.pePA.ChristIsRisen.mode End-Title
-								Hymn sid pe.d00P_gr_GR_cog.pePA.ChristIsRisen.text media-off End-Hymn
+								Hymn sid pe.d00P_gr_GR_cog.pePA.ChristIsRisen.text @ver media-off End-Hymn
 							End-Section
 						110 thru 118 use:
 							Section ascension_antiphon3_hymn
 							//	Title role mode sid pe.d110_gr_GR_cog.peVE.Apolytikion1.mode End-Title
-								Hymn sid pe.d110_gr_GR_cog.peVE.Apolytikion1.text media-off End-Hymn
+								Hymn sid pe.d110_gr_GR_cog.peVE.Apolytikion1.text @ver media-off End-Hymn
 							End-Section
 						120 thru 126 use:
 							Section pentecost_antiphon3_hymn
 							//	Title role mode sid pe.d120_gr_GR_cog.peVE.Apolytikion1.mode End-Title
-								Hymn sid pe.d120_gr_GR_cog.peVE.Apolytikion1.text media-off End-Hymn
+								Hymn sid pe.d120_gr_GR_cog.peVE.Apolytikion1.text @ver media-off End-Hymn
 							End-Section
 						
 						otherwise use:
@@ -268,42 +268,42 @@ Status Final
 								Jan 1 use:
 									Section jan01_antiphon3_hymn
 									//	Title role mixed<Tmode>sid me.m01.d01_gr_GR_cog.meVE.Apolytikion2.mode</><Tmelody>sid me.m01.d01_gr_GR_cog.meVE.Apolytikion2.melody</>End-Title
-										Hymn sid me.m01.d01_gr_GR_cog.meVE.Apolytikion2.text media-off End-Hymn
+										Hymn sid me.m01.d01_gr_GR_cog.meVE.Apolytikion2.text @ver media-off End-Hymn
 									End-Section
 								Jan 6 thru 14 use:
 									Section jan06_antiphon3_hymn
 										Title role mixed<Tdesig>sid Apolytikion sid TisEortis</><Tmode>sid me.m01.d06_gr_GR_cog.meVE.Apolytikion1.mode</>End-Title
-										Hymn sid me.m01.d06_gr_GR_cog.meVE.Apolytikion1.text End-Hymn
+										Hymn sid me.m01.d06_gr_GR_cog.meVE.Apolytikion1.text @ver End-Hymn
 									End-Section
 								Aug 6 thru 12 use:
 									Section aug06_antiphon3_hymn
 									//	Title role mixed<Tdesig>sid Apolytikion</><Tmode>sid me.m08.d06_gr_GR_cog.meVE.Apolytikion1.mode</>End-Title
-										Hymn sid me.m08.d06_gr_GR_cog.meVE.Apolytikion1.text End-Hymn
+										Hymn sid me.m08.d06_gr_GR_cog.meVE.Apolytikion1.text @ver End-Hymn
 									End-Section
 								Aug 15 thru 23 use:
 									Section aug15_antiphon3_hymn
 									//	Title role mixed<Tdesig>sid Apolytikion</><Tmode>sid me.m08.d15_gr_GR_cog.meVE.Apolytikion1.mode</>End-Title
-										Hymn sid me.m08.d15_gr_GR_cog.meVE.Apolytikion1.text End-Hymn
+										Hymn sid me.m08.d15_gr_GR_cog.meVE.Apolytikion1.text @ver End-Hymn
 									End-Section
 								Sep 8 thru 12 use:
 									Section sep08_antiphon3_hymn
 									//	Title role mixed<Tdesig>sid Apolytikion sid TisEortis</><Tmode>sid me.m09.d08_gr_GR_cog.meVE.Apolytikion1.mode</>End-Title
-										Hymn sid me.m09.d08_gr_GR_cog.meVE.Apolytikion1.text End-Hymn
+										Hymn sid me.m09.d08_gr_GR_cog.meVE.Apolytikion1.text @ver End-Hymn
 									End-Section
 								Sep 14 thru 21 use:
 									Section sep14_antiphon3_hymn
 									//	Title role mixed<Tdesig>sid Apolytikion sid TouStavrou</><Tmode>sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.mode</>End-Title
-										Hymn sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.text End-Hymn
+										Hymn sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.text @ver End-Hymn
 									End-Section
 								Nov 21 thru 25 use:
 									Section nov21_antiphon3_hymn
 									//	Title role mixed<Tdesig>sid Apolytikion sid TouStavrou</><Tmode>sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.mode</>End-Title
-										Hymn sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.text End-Hymn
+										Hymn sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.text @ver End-Hymn
 									End-Section
 								Dec 25 thru 31 use:
 									Section dec25_antiphon3_hymn
 									//	Title role mixed<Tdesig>sid Apolytikion sid TisEortis</><Tmode>sid me.m12.d25_gr_GR_cog.meVE.Apolytikion1.mode</>End-Title
-										Hymn sid me.m12.d25_gr_GR_cog.meVE.Apolytikion1.text End-Hymn
+										Hymn sid me.m12.d25_gr_GR_cog.meVE.Apolytikion1.text @ver End-Hymn
 									End-Section
 								
 								otherwise use:
@@ -312,7 +312,7 @@ Status Final
 											Section sunday_antiphon3_hymn
 											//	Title role desig sid ApolytikionAnastasimon End-Title
 											//	Title role mixed<Tmode>rid ocVE.Apolytikion.mode</><Tmelody>rid ocVE.Apolytikion.melody</>End-Title
-												Hymn rid ocVE.Apolytikion.text End-Hymn
+												Hymn rid ocVE.Apolytikion.text @ver End-Hymn
 											End-Section
 									end-when
 							end-when
