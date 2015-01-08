@@ -60,12 +60,12 @@ Template cu.presanctified
 	Break line End_Break
 	Break line End_Break
 	Break line End_Break
-	Insert_section PL._01 End-Insert
-	Insert_section PL._02 End-Insert
-	Insert_section PL._03 End-Insert
-	Insert_section PL._04 End-Insert
-	Insert_section PL._05 End-Insert
 	Insert_section PL._06 End-Insert
 	Insert_section PL._07 End-Insert
+	Insert_section PL._08 End-Insert
+	Insert_section PL._09 End-Insert
+	Insert_section PL._10 End-Insert
+	Insert_section PL._11 End-Insert
+	Insert_section PL._12 End-Insert
 
 End-Template
