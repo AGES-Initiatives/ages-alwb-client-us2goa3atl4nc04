@@ -21,7 +21,7 @@ Template Liturgy_Epistle
 	import roles.*
 
 	Head 
-		Set_Date month 1 day 4 year 2015 End_Date
+		Set_Date month 1 day 11 year 2015 End_Date
 	End_Head
 
 	Section Epistle_Info
