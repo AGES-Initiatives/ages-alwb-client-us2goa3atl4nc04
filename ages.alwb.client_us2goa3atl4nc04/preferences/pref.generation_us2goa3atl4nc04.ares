@@ -17,7 +17,6 @@ A_Resource_Whose_Name = pref.generation_us2goa3atl4nc04
 	generate.file.html.version.v2 = "no" 	// e.g. English
 	generate.file.html.version.v1v2 = "yes" // e.g. Greek-English
 
-
 // PDF generation
 	generate.file.pdf = "no"  // if set to "no", the next three values are switched off
 
@@ -34,7 +33,6 @@ A_Resource_Whose_Name = pref.generation_us2goa3atl4nc04
 	pss.stylesheet = "snc" 
 	merge.pdf.media = "no"  //this setting goes to pref.website
 
-
 /* for reference only
 	// Greek and English
 		generate.file.pdf.version.v1 = "no" // e.g. Greek
@@ -44,7 +42,6 @@ A_Resource_Whose_Name = pref.generation_us2goa3atl4nc04
 		page.columns.quantity = "1" //2 for English, 1 for GE. 
 		page.columns.gap = "0in" //.1in for English, 0 for GE. 
 */	
-
 
 // ---------------------------------
 // TMS Json generation -- you must also generate HTML in order for this to work
@@ -91,7 +88,6 @@ display.version.text.v2 = "yes" //right side, i.e. English
 version.prefix = " ("  // note the non-breaking space code before the (
 version.suffix = ")"
 version.delimiter = ","
-
 
 // ePub generation
 generate.file.epub = "no"  // if set to "no", the next three values are switched off
