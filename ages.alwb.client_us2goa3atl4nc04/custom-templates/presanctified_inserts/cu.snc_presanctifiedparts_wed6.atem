@@ -35,7 +35,7 @@ Template cu.snc_presanctifiedparts_wed6
 	
 	Title role desig sid OnWednesday sid Evening sid ofWeek6 ldp @Service_Year End-Title
 	Insert_section VE.LIHC_Mode5  End-Insert
-	Insert_section VE._03_Stichera__.tr__.pl_ End-Insert
+	Insert_section PL._03_Stichera_ End-Insert
 	Section Presanctified03 // Entrance
 //		Actor sid Deacon End-Actor
 //		Rubric sid InALowVoice End-Rubric
