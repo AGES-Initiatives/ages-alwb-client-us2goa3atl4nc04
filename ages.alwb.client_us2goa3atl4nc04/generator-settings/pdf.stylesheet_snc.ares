@@ -3,7 +3,7 @@ A_Resource_Whose_Name =  pdf.stylesheet_snc
 actor = "
 	color: red;
 	font-family: Palatino Linotype Bold;
-	font-size: 12pt;
+	font-size: 11pt;
 	font-variant: small-caps;
 	font-weight: bold;
 	padding-before: 3px;
@@ -41,7 +41,7 @@ boldred = "
 "
 chant = "
 	font-family: Palatino Linotype;
-	font-size: 12pt;
+	font-size: 11pt;
 	padding-bottom: 6px;
 	text-align: left;
 	text-indent: .3in;
@@ -107,39 +107,39 @@ cover5 = "
 "
 credits1 = "
 	font-family: Palatino Linotype Bold;
-	font-size: 12pt;
+	font-size: 11pt;
 	font-weight: bold;
 	padding-bottom: 1em;
 	padding-top: 1em;
 	text-align: left;
 "
 credits2 = "
-	font-size: 12pt;
+	font-size: 11pt;
 	text-align: left;
 "
 credits3 = "
-	font-size: 12pt;
+	font-size: 11pt;
 	padding-bottom: 1em;
 	text-align: left;
 "
 designation = "
 	color: red;
 	font-family: Palatino Linotype Bold;
-	font-size: 12pt;
+	font-size: 11pt;
 	font-style: normal;
 	font-weight: bold;
 	padding-after: 3px;
 	text-align: center;
 "
 dialog = "
-	font-size: 12pt;
+	font-size: 11pt;
 	line-height: 130%;
 	padding-bottom: 6px;
 	text-align: left;
 	text-indent: .3in;
 "
 dialogzero = "
-	font-size: 12pt;
+	font-size: 11pt;
 	line-height: 130%;
 	padding-bottom: 6px;
 	text-align: left;
@@ -236,33 +236,33 @@ headerOddRightColor = "
 	color: red;
 "
 heirmos = "
-	font-size: 12pt;
+	font-size: 11pt;
 	line-height: 150%;
 	padding-bottom: 6px;
 	text-align: left;
 	text-indent: .3in;
 "
 hymn = "
-	font-size: 12pt;
+	font-size: 11pt;
 	line-height: 150%;
 	padding-bottom: 6px;
 	text-align: left;
 	text-indent: .3in;
 "
 hymnlinefirst = "
-	font-size: 12pt;
+	font-size: 11pt;
 	line-height: 150%;
 	text-align: left;
 	text-indent: .3in;
 "
 hymnlinemiddle = "
-	font-size: 12pt;
+	font-size: 11pt;
 	line-height: 150%;
 	text-align: left;
 	text-indent: 0in;
 "
 hymnlinelast = "
-	font-size: 12pt;
+	font-size: 11pt;
 	line-height: 150%;
 	padding-bottom: 6px;
 	text-align: left;
@@ -277,7 +277,7 @@ inaudible = "
 "
 inlinerubric = "
 	color: red;
-	font-size: 12pt;
+	font-size: 11pt;
 	font-style: italic;
 "
 italics = "
@@ -291,14 +291,14 @@ italicsred = "
 "
 melody = "
 	color: red;
-	font-size: 12pt;
+	font-size: 11pt;
 	font-style: italic;
 	font-weight: normal;
 	padding-after: 3px;
 	text-align: center;
 "
 mixed = "
-	font-size: 12pt;
+	font-size: 11pt;
 	font-style: normal;
 	font-weight: normal;
 	padding-after: 3px;
@@ -307,7 +307,7 @@ mixed = "
 mode = "
 	color: red;
 	font-family: Palatino Linotype Bold;
-	font-size: 12pt;
+	font-size: 11pt;
 	font-weight: bold;
 	padding-after: 3px;
 	text-align: center;
@@ -315,42 +315,42 @@ mode = "
 missaltitle = "
 	color: red;
 	font-family: Palatino Linotype Bold;
-	font-size: 12pt;
+	font-size: 11pt;
 	font-weight: bold;
 	padding-after: 3px;
 	text-align-last: justify;>
 "
 name = "
 	color: red;
-	font-size: 12pt;
+	font-size: 11pt;
 	font-style: italic;
 	font-weight: normal;
 	padding-after: 3px;
 "
 
 prayerzero = "
-	font-size: 12pt;
+	font-size: 11pt;
 	line-height: 150%;
 	padding-after: 0px;
 	text-align: left;
 	text-indent: .3in;
 "
 prayer = "
-	font-size: 12pt;
+	font-size: 11pt;
 	line-height: 150%;
 	padding-after: 6px;
 	text-align: left;
 	text-indent: .3in;
 "
 readingzero = "
-	font-size: 12pt;
+	font-size: 11pt;
 	line-height: 150%;
 	padding-after: 0px;
 	text-align: left;
 	text-indent: .3in;
 "
 reading = "
-	font-size: 12pt;
+	font-size: 11pt;
 	line-height: 150%;
 	padding-after: 6px;
 	text-align: left;
@@ -380,6 +380,26 @@ rubric = "
 	padding-bottom: 6px;
 	text-align: left;
 	text-indent: .3in;
+"
+source = "
+	color: gray;
+	font-size: 8pt;
+	font-style: normal;
+	font-weight: normal;
+	text-align: left;
+	padding-before: 1px;
+	padding-after: 3px;
+	line-height: 0%;
+"
+source0 = "
+	color: gray;
+	font-size: 8pt;
+	font-style: normal;
+	font-weight: normal;
+	text-align: left;
+	padding-before: 1px;
+	padding-after: 3px;
+	line-height: 0%;
 "
 table = "
 	border-collapse: collapse;
@@ -413,7 +433,7 @@ tr = "
 	border-spacing: 0 5 px;
 "
 verse = "
-	font-size: 12pt;
+	font-size: 11pt;
 	font-style: italic;
 	line-height: 150%;
 	padding-after: 3px;
@@ -421,9 +441,16 @@ verse = "
 	text-indent: .3in;
 "
 versecenter = "
-	font-size: 12pt;
+	font-size: 11pt;
 	font-style: italic;
 	line-height: 150%;
 	padding-after: 3px;
 	text-align: center;
+"
+versiondesignation = "
+	color: red;
+	font-size: 6pt;
+	font-style: normal;
+	font-weight: normal;
+	vertical-align: middle;
 "
