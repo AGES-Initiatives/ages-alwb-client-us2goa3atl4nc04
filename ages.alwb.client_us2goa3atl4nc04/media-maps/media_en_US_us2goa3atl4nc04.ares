@@ -49,7 +49,7 @@ people.same = "*"
 people.name = ""
 
 //url.base.dcs = "m/"  //for media copy in website
-url.base.dcs = "../../m/"  //for remote media
+url.base.dcs = "../../m/en_public/"  //for remote media
 
 //url.base.client = ""
 url.base.hwaudio = "http://agesinitiatives.com/vci/media/VCI%20Holy%20Week/"
@@ -58,5 +58,5 @@ url.base.hwaudio = "http://agesinitiatives.com/vci/media/VCI%20Holy%20Week/"
 client.cl.Apolytikion1.c1.composer = people.dedes
 client.cl.Apolytikion1.c1.score.w.arranger = people.dedes
 client.cl.Apolytikion1.c1.score.w.url.base = url.base.dcs
-client.cl.Apolytikion1.c1.score.w.url.path = "en_dedes/client/us2goa3atl4nc04/apolytikion1.pdf"
+client.cl.Apolytikion1.c1.score.w.url.path = "client/us2goa3atl4nc04/apolytikion1.pdf"
 client.cl.Apolytikion1.c1.score.w.year = "2013"
