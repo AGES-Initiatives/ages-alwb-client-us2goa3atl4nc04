@@ -21,7 +21,7 @@ Template bk.SNCMissals
 	import roles.*
 
 	Head
-		Set_Date month 3 day 1 year 2015 End_Date
+		Set_Date month 4 day 5 year 2015 End_Date
 	End_Head	
 
 		Para role missaltitle ldp @Service_Date End-Para
@@ -41,13 +41,13 @@ Template bk.SNCMissals
 		Para role missaltitle sid Readings.title<Tnumright>sid Readings.pagenumber</>End-Para
 Break line End_Break
 		Insert_section Liturgy_Epistle.Epistle_Info End-Insert
-//		Insert_section LectionaryEpistleText.Epistle_Text End-Insert
+		Insert_section LectionaryEpistleText.Epistle_Text End-Insert
 Break line End_Break
 //		Insert_section Liturgy_Epistle_Menaion.Epistle_Info End-Insert
 //		Insert_section Liturgy_Epistle_Menaion.Epistle_Lesson End-Insert
 Break line End_Break
 		Insert_section Liturgy_Gospel.Gospel_Info End-Insert
-//		Insert_section LectionaryGospelText.Gospel_Text End-Insert
+		Insert_section LectionaryGospelText.Gospel_Text End-Insert
 Break line End_Break
 //		Insert_section Liturgy_Gospel_Menaion.Gospel_Info End-Insert
 //		Insert_section Liturgy_Gospel_Menaion.Gospel_Lesson End-Insert
