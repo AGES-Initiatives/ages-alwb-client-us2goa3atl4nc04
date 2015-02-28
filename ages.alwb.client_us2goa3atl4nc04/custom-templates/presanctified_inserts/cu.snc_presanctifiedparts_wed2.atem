@@ -5,17 +5,6 @@ Template cu.snc_presanctifiedparts_wed2
 	import ho.s03_gr_GR_cog.*
 	import ho.s07_gr_GR_cog.*
 	import ho.s10_gr_GR_cog.*	
-//	import me.m00.d00_gr_GR_cog.*
-//	import pe.d000_gr_GR_cog.*
-//	import tr.d000_gr_GR_cog.*
-
-//	import oc.*
-//	import pe.*
-//	import tr.*
-
-	//Templates
-	import kTheotokos.*  //Katavasia
-	import eu.li.chrysbasil.*
 	
 	import actors_gr_GR_cog.*
 	import template.titles_gr_GR_cog.*
@@ -47,6 +36,7 @@ Template cu.snc_presanctifiedparts_wed2
 	
 	
 	Title role desig sid OnWednesday sid Evening sid ofWeek2 ldp @Service_Year End-Title
+	Insert_section VE.LIHC_Mode1  End-Insert
 	Insert_section PL._03_Stichera_ End-Insert
 	Section Presanctified03 // Entrance
 //		Actor sid Deacon End-Actor
