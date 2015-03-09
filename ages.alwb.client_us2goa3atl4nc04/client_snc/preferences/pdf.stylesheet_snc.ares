@@ -11,6 +11,12 @@ actor = "
 	text-align: left;
 	text-indent: 0px;
 "
+anum = "
+	font-family: Palatino Linotype Italic;
+	font-style: normal;
+	color: red;
+	font-size: 10pt;
+"
 bigblack = "
 	font-family: Palatino Linotype;
 	font-size: 16pt;
@@ -370,6 +376,12 @@ readingcenter = "
 "
 red = "
 	color: red;
+"
+reference = "
+	font-family: Palatino Linotype Italic;
+	font-style: italic;
+	color: red;
+	font-size: 10pt;
 "
 rubric = "
 	color: red;
