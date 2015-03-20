@@ -81,65 +81,65 @@ Status Final
 				otherwise use:
 					when-movable-cycle-day-is
 						29 use:
-							Section lent1_antiphons123
+							Section lent1_antiphon2_refrain
 								Hymn sid hoLI.Antiphon21.text media-off sid hoLI.Antiphon2s.text media-off sid hoLI.Antiphon22.text @ver media-off End-Hymn
 							End-Section
 						43 use:
-							Section lent3_antiphons123
+							Section lent3_antiphon2_refrain
 								Hymn sid hoLI.Antiphon21.text media-off sid hoLI.Antiphon2s.text media-off sid hoLI.Antiphon22.text @ver media-off End-Hymn
 							End-Section
 						63 use:
-							Section lazarus_antiphons123
+							Section lazarus_antiphon2_refrain
 								Hymn sid hoLI.Antiphon21.text media-off sid hoLI.Antiphon2s.text media-off sid hoLI.Antiphon22.text @ver media-off End-Hymn
 							End-Section
 						64 use:
-							Section palm_antiphons123
+							Section palm_antiphon2_refrain
 								Hymn sid ho.s07_gr_GR_cog.hoLI.Antiphon21.text media-off sid tr.d064_gr_GR_cog.trLI.Antiphon2.text media-off sid ho.s07_gr_GR_cog.hoLI.Antiphon22.text @ver media-off End-Hymn
 							End-Section
 						71 thru 109 use:
-							Section pascha_antiphons123
+							Section pascha_antiphon2_refrain
 								Hymn sid hoLI.Antiphon21.text media-off sid hoLI.Antiphon2s.text media-off sid hoLI.Antiphon22.text @ver media-off End-Hymn
 							End-Section
 						110 thru 118 use:
-							Section ascension_antiphons123
+							Section ascension_antiphon2_refrain
 								Hymn sid ho.s07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pe.d110_gr_GR_cog.peLI.Antiphon2.text media-off sid ho.s07_gr_GR_cog.hoLI.Antiphon22.text @ver media-off End-Hymn
 							End-Section
 						120 thru 126 use:
-							Section pentecost_antiphons123
+							Section pentecost_antiphon2_refrain
 								Hymn sid pe.d120_gr_GR_cog.peLI.Antiphon2.text media-off sid ho.s07_gr_GR_cog.hoLI.Antiphon22.text @ver media-off End-Hymn
 							End-Section
 						
 						otherwise use:
 							when-date-is
 								Jan 1 use:
-									Section jan01_antiphons123
+									Section jan01_antiphon2_refrain
 										Hymn sid ho.s07_gr_GR_cog.hoLI.Antiphon21.text media-off sid me.m01.d01_gr_GR_cog.meLI.Antiphon2.text media-off sid ho.s07_gr_GR_cog.hoLI.Antiphon22.text @ver media-off End-Hymn
 									End-Section
 								Jan 6 thru 14 use:
-									Section jan06_antiphons123
+									Section jan06_antiphon2_refrain
 										Hymn sid ho.s07_gr_GR_cog.hoLI.Antiphon21.text media-off sid me.m01.d06_gr_GR_cog.meLI.Antiphon2.text media-off sid ho.s07_gr_GR_cog.hoLI.Antiphon22.text @ver media-off End-Hymn
 									End-Section
 								Aug 6 thru 12 use:
-									Section aug06_antiphons123
+									Section aug06_antiphon2_refrain
 										Hymn sid ho.s07_gr_GR_cog.hoLI.Antiphon21.text media-off sid me.m08.d06_gr_GR_cog.meLI.Antiphon2.text media-off sid ho.s07_gr_GR_cog.hoLI.Antiphon22.text @ver media-off End-Hymn
 									End-Section
 								Sep 14 thru 21 use:
-									Section sep14_antiphons123
+									Section sep14_antiphon2_refrain
 										Hymn sid ho.s07_gr_GR_cog.hoLI.Antiphon21.text media-off sid me.m09.d14_gr_GR_cog.meLI.Antiphon2.text media-off sid ho.s07_gr_GR_cog.hoLI.Antiphon22.text @ver media-off End-Hymn
 									End-Section
 								Dec 25 thru 31 use:
-									Section dec25_antiphons123
+									Section dec25_antiphon2_refrain
 										Hymn sid ho.s07_gr_GR_cog.hoLI.Antiphon21.text media-off sid me.m12.d25_gr_GR_cog.meLI.Antiphon2.text media-off sid ho.s07_gr_GR_cog.hoLI.Antiphon22.text @ver media-off End-Hymn
 									End-Section
 								
 								otherwise use:
 									when-name-of-day-is
 										Sunday use:
-											Section sunday_antiphons123
+											Section sunday_antiphon2_refrain
 												Hymn sid hoLI.Antiphon21.text media-off sid hoLI.Antiphon2s.text media-off sid hoLI.Antiphon22.text @ver media-off End-Hymn
 											End-Section
 										otherwise use:
-											Section weekday_antiphons12
+											Section weekday_antiphon2_refrain
 												Hymn sid hoLI.Antiphon21.text media-off sid hoLI.Antiphon2w.text media-off sid hoLI.Antiphon22.text @ver media-off End-Hymn
 											End-Section
 									end-when
