@@ -31,29 +31,29 @@ cl.Apolytikion1.melody = he.a.m1_gr_GR_cog.TisErimouPolitis.name
 cl.Apolytikion1.text = me.m11.d09_gr_GR_cog.meVE.Apolytikion1.text
 
 cl.Kontakion1.title = "Τοῦ Ἁγίου Νεκταρίου."
-cl.Kontakion1.mode  = misc_gr_GR_cog.Mode8
-cl.Kontakion1.melody  = he.a.m8_gr_GR_cog.TiYpermacho.name
+cl.Kontakion1.mode = misc_gr_GR_cog.Mode8
+cl.Kontakion1.melody = he.a.m8_gr_GR_cog.TiYpermacho.name
 cl.Kontakion1.text = me.m11.d09_gr_GR_cog.meLI.Kontakion1.text
 
 cl.consecration.name = "τοῦ Ἁγίου Νεκταρίου,"
 
 cl.relics.saint1 = ""
 cl.relics.saint1.Apolytikion.title = ""
-cl.relics.saint1.Apolytikion.mode  = ""
-cl.relics.saint1.Apolytikion.melody  = ""
-cl.relics.saint1.Apolytikion.text  = ""
+cl.relics.saint1.Apolytikion.mode = ""
+cl.relics.saint1.Apolytikion.melody = ""
+cl.relics.saint1.Apolytikion.text = ""
 
 cl.relics.saint2 = ""
 cl.relics.saint2.Apolytikion.title = ""
-cl.relics.saint2.Apolytikion.mode  = ""
-cl.relics.saint2.Apolytikion.melody  = ""
-cl.relics.saint2.Apolytikion.text  = ""
+cl.relics.saint2.Apolytikion.mode = ""
+cl.relics.saint2.Apolytikion.melody = ""
+cl.relics.saint2.Apolytikion.text = ""
 
 cl.relics.saint3 = ""
 cl.relics.saint3.Apolytikion.title = ""
-cl.relics.saint3.Apolytikion.mode  = ""
-cl.relics.saint3.Apolytikion.melody  = ""
-cl.relics.saint3.Apolytikion.text  = ""
+cl.relics.saint3.Apolytikion.mode = ""
+cl.relics.saint3.Apolytikion.melody = ""
+cl.relics.saint3.Apolytikion.text = ""
 
 //Rubrics
 
