@@ -31,29 +31,29 @@ cl.Apolytikion1.melody = he.a.m1_en_US_public.TisErimouPolitis.name
 cl.Apolytikion1.text = "As we joyfully commemorate the welcome arrival of your sacred Relics, holy Hierarch Nektarios, we call upon the grace of God in you, which sanctifies our bodies and our souls. You alleviate our suffering and you cure the illnesses afflicting us. Glory to Christ, who glorified you! Glory to Him for your miracles! Glory to Him for all the cures that He works through you."
 
 cl.Kontakion1.title = "For St. Nektarios."
-cl.Kontakion1.mode  = misc_en_US_dedes.Mode8
-cl.Kontakion1.melody  = he.a.m8_en_US_dedes.TiYpermacho.name
+cl.Kontakion1.mode = misc_en_US_dedes.Mode8
+cl.Kontakion1.melody = he.a.m8_en_US_dedes.TiYpermacho.name
 cl.Kontakion1.text = me.m11.d09_en_US_dedes.meLI.Kontakion1.text
 
 cl.consecration.name = "St. Nektarios,"
 
 cl.relics.saint1 = ""
 cl.relics.saint1.Apolytikion.title = ""
-cl.relics.saint1.Apolytikion.mode  = ""
-cl.relics.saint1.Apolytikion.melody  = ""
-cl.relics.saint1.Apolytikion.text  = ""
+cl.relics.saint1.Apolytikion.mode = ""
+cl.relics.saint1.Apolytikion.melody = ""
+cl.relics.saint1.Apolytikion.text = ""
 
 cl.relics.saint2 = ""
 cl.relics.saint2.Apolytikion.title = ""
-cl.relics.saint2.Apolytikion.mode  = ""
-cl.relics.saint2.Apolytikion.melody  = ""
-cl.relics.saint2.Apolytikion.text  = ""
+cl.relics.saint2.Apolytikion.mode = ""
+cl.relics.saint2.Apolytikion.melody = ""
+cl.relics.saint2.Apolytikion.text = ""
 
 cl.relics.saint3 = ""
 cl.relics.saint3.Apolytikion.title = ""
-cl.relics.saint3.Apolytikion.mode  = ""
-cl.relics.saint3.Apolytikion.melody  = ""
-cl.relics.saint3.Apolytikion.text  = ""
+cl.relics.saint3.Apolytikion.mode = ""
+cl.relics.saint3.Apolytikion.melody = ""
+cl.relics.saint3.Apolytikion.text = ""
 
 //Rubrics
 
