@@ -21,7 +21,7 @@ Template bk.SNCMissals
 	import roles.*
 
 	Head
-		Set_Date month 4 day 5 year 2015 End_Date
+		Set_Date month 6 day 14 year 2015 End_Date
 	End_Head	
 
 		Para role missaltitle ldp @Service_Date End-Para
