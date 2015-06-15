@@ -39,6 +39,12 @@ Status Draft
 			Mar 22 use: Insert_section se.tr.d050.li.Instance01.hymns End-Insert
 			Mar 29 use: Insert_section se.tr.d057.li.Instance01.hymns End-Insert
 			Apr 5 use: Insert_section se.tr.d064.li.Instance01.hymns End-Insert
+			Jun 21 use: Insert_section se.m06.d21.li.Instance05.hymns End-Insert
+			Jun 28 use: Insert_section se.m06.d28.li.Instance05.hymns End-Insert
+			Jul 5 use: Insert_section se.m07.d05.li.Instance02.hymns End-Insert
+			Jul 12 use: Insert_section se.m07.d12.li.Instance02.hymns End-Insert
+			Jul 19 use: Insert_section se.m07.dHF.li.Instance01.hymns End-Insert
+			Jul 26 use: Insert_section se.m07.d26.li.Instance02.hymns End-Insert
 		end-when
 	End-Section
 	
