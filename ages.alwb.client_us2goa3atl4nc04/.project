@@ -11,7 +11,7 @@
 		<project>alwb.library_en_US_oca</project>
 		<project>alwb.library_en_US_repass</project>
 		<project>alwb.library_gr_GR_cog</project>
-		<project>alwb.templates</project>
+		<project>my.alwb.templates</project>
 		<project>net.ages.liturgical.workbench.scripture</project>
 		<project>net.ages.liturgical.workbench.system</project>
 	</projects>
