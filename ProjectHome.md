@@ -1,0 +1,1 @@
+This project contains the custom templates and ares files, as well as the generator settings and website for SNC
