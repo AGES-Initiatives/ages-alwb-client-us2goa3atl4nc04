@@ -50,6 +50,10 @@ Status Draft
 			Aug 16 use: Insert_section se.m08.d16.li.Instance02.hymns End-Insert
 			Aug 23 use: Insert_section se.m08.d23.li.Instance02.hymns End-Insert
 			Aug 30 use: Insert_section se.m08.d30.li.Instance02.hymns End-Insert
+			Sep 6 use: Insert_section se.m09.d06.li.Instance02.hymns End-Insert
+			Sep 13 use: Insert_section se.m09.d13.li.Instance02.hymns End-Insert
+			Sep 20 use: Insert_section se.m09.d20.li.Instance02.hymns End-Insert
+			Sep 27 use: Insert_section se.m09.d27.li.Instance02.hymns End-Insert
 		end-when
 	End-Section
 	
